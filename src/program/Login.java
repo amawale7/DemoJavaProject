@@ -12,10 +12,12 @@ public class Login
 	{
 		
 		System.out.println("Start the test");
+		System.out.println("Start the test");
 		System.setProperty("webdriver.chrome.driver","E:\\Selenium All Driver\\chrome\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
+		System.out.println("End the test");
 		driver.quit();
 	}
 	
